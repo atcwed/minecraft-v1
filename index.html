@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Minecraft 2D PRO</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<div id='hud'>❤️ <span id='hp'>100</span></div>
+<canvas id='game'></canvas>
+<div id='controls'>
+<button id='left'>⬅</button>
+<button id='jump'>⬆</button>
+<button id='right'>➡</button>
+</div>
+<div id='inv'>
+<img src='textures/grass.png' onclick='sel(1)'>
+<img src='textures/dirt.png' onclick='sel(2)'>
+<img src='textures/stone.png' onclick='sel(3)'>
+<img src='textures/wood.png' onclick='sel(4)'>
+</div>
+<script src='game.js'></script>
+</body></html>
